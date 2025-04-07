@@ -21,7 +21,7 @@ public:
         cout << name << "\t" << ret  << "\t" << volatility  << "\t" << sharpe_ratio  << "\t" << beta << endl;
     }
 };
-
+// 2nd v
 class Portifolio{
 private:
     vector<Asset> assets;
