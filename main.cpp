@@ -15,7 +15,7 @@ using namespace std;
 
 int main() {
     DataProcessing Data;
-    Data.read_file("C:\\Users\\HP ELITEBOOK 840 G3\\Desktop\\Python\\C++\\Data.csv");
+    Data.read_file("Data.csv");
     Data.CalculateIndicators(0.01);
     Portfolio Portfolio(Data.get_assets());
     Portfolio.display();
